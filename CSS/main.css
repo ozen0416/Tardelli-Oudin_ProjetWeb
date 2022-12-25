@@ -1,14 +1,17 @@
+
+
 .container {
     display : flex;
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: white;
+
 }
 
 .primary-button {
+    color: #0f1923;
     cursor: pointer;
-    font-family: 'Ropa Sans', Helvetica;
+    font-family: 'Ropa Sans', Helvetica, serif;
     font-size: 0.9rem;
     font-weight: bold;
     letter-spacing: 0.05rem;
@@ -33,7 +36,7 @@
 .primary-button::before{
     content: "";
     position: absolute;
-    background-color: white;
+    background-color: #f74852;
     width: 0.2rem;
     height: 0.2rem;
     top:-1px;
@@ -43,13 +46,13 @@
 }
 
 .primary-button:hover::before{
-    background-color: #ff4655;
+    background-color: #0f1923;
 }
 
 .primary-button::after{
     content: "";
     position: absolute;
-    background-color: white;
+    background-color: #0f1923;
     width: 0.4rem;
     height: 0.4rem;
     bottom:-1px;
@@ -69,7 +72,7 @@
     height: 50%;
     left: -0.5rem;
     top: -0.5rem;
-    border: 1px solid white;
+    border: 1px solid #0f1923;
     border-bottom: 0px;
     opacity: 0.3;
 }
@@ -81,7 +84,7 @@
     height: 50%;
     left: -0.5rem;
     bottom: -0.5rem;
-    border: 1px solid white;
+    border: 1px solid #f74852;
     border-top: 0px;
     opacity: 0.3;
     z-index: 0;
