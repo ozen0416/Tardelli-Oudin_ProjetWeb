@@ -18,6 +18,9 @@ html, body {
     background-color: var(--v-white);
     text-rendering: optimizeLegibility;
 }
+a {
+    text-decoration: unset;
+}
 
 #container {
     display: flex;
