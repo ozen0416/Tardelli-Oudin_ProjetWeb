@@ -1,0 +1,41 @@
+
+
+:root {
+    --v-red: #ff4655;
+    --v-white: #ece8e1;
+    --v-black: #0f1923;
+    --v-outline: rgba(236, 232, 225, .5);
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-size: 10px;
+    margin: 0;
+    color: var(--v-white);
+    background-color: var(--v-white);
+    text-rendering: optimizeLegibility;
+}
+a {
+    text-decoration: unset;
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.box {
+    width: 70%;
+}
+
+.logo {
+    margin-bottom: 40px;
+    fill: var(--v-black);
+}
+
