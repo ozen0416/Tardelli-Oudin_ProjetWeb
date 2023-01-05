@@ -2,8 +2,8 @@ button{
     font-size: 1.9rem;
     font-weight: 400;
     position: absolute;
-    display: block;
-    width: 100%;
+    display: bloc;
+    width: 20%;
     margin-bottom: 3rem;
     padding: .7rem;
     cursor: pointer;
@@ -11,6 +11,7 @@ button{
     color: var(--v-white);
     border: 0;
     background-color: transparent;
+    top: 150px;
 }
 
 button:hover {
@@ -106,14 +107,23 @@ button:hover .label-text:after {
 
 .primary {
     color: var(--v-white);
+    position: relative;
+    left: 1px;
+    top: 250px;
 }
 
 .primary2{
     color: var(--v-white);
+    position: relative;
+    left: 630px;
+    top: 250px;
 }
 
 .primary3 {
     color: var(--v-white);
+    position: relative;
+    left: -30px;
+    top: 560px;
 }
 
 .primary .label::before {
