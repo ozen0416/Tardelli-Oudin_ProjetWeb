@@ -43,7 +43,7 @@ button::after {
 .hover-effect {
     position: absolute;
     z-index: 1;
-    top: 0;
+    top: 1;
     left: -5%;
     width: 110%;
     height: 100%;
