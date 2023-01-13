@@ -41,20 +41,9 @@ a {
     right: 460px;
 }
 
-
-.fracture {
-    background: no-repeat;
-    width: 1550px;
-    height: 300px;
-    filter: blur(3px);
-    position: absolute;
-    top: 453px;
-    right: 0px;
-}
-
-.vandal {
-    background: no-repeat;
-    filter: blur(3px);
-    position: absolute;
+#background-video {
+    position:absolute;
+    display: flex;
+    width: 100%;
 
 }

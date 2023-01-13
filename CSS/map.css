@@ -1,0 +1,65 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url(../Font/ValorantFont.ttf);
+}
+
+.carousel-items {
+    display: flex;
+    overflow-x: scroll;
+    padding: 1rem 0;
+    scroll-snap-type: x mandatory;
+}
+
+.carousel-item {
+    margin-left: 1rem;
+    flex-grow: 1;
+    flex-shrink: 0;
+    flex-basis: 450px;
+    scroll-snap-align: start;
+}
+
+img {
+    height: auto;
+    width: 500px;
+    margin-bottom: 0.5rem;
+    max-width: calc(100%+2rem);
+    position: relative;
+    left: -1rem;
+    right: -1rem;
+}
+
+ul {
+    margin: 0 0 1.5rem;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+}
+
+main {
+    padding: 1rem 2rem;
+    margin: auto;
+}
+
+.card {
+    border: 1px solid --v-white;
+    border-radius: 8px;
+    padding: 1rem;
+}
+
+p {
+    font-family: 'Valorant';
+    color: white;
+}
+
+
+.card-content {
+    border: 1px solid black;
+    background: black;
+    position: relative;
+    width: 450px;
+    text-align: center;
+    border-radius: 20px 5px 10px;
+    box-shadow: 15px 10px 10px grey;
+}

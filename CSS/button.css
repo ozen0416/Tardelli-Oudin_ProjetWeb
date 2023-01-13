@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'Valorant';
+    src: url(../Font/ValorantFont.ttf);
+}
+
 button{
     font-size: 1.9rem;
     font-weight: 400;
@@ -12,6 +17,7 @@ button{
     border: 0;
     background-color: transparent;
     top: 150px;
+    font-family: 'Valorant';
 }
 
 button:hover {
@@ -43,7 +49,7 @@ button::after {
 .hover-effect {
     position: absolute;
     z-index: 1;
-    top: 1;
+    top: 0;
     left: -5%;
     width: 110%;
     height: 100%;
